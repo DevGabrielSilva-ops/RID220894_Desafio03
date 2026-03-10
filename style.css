@@ -163,6 +163,28 @@ li{
     font-weight: 400;
     color: #B1BACB;
     margin-top: 1rem;
-    margin-left: 18rem;
+    
 
+}
+
+@media screen and (max-width: 768px){
+    main{
+        width: 80%;
+    }
+
+    .input-tarefa{
+        width: 90%;
+    }
+
+    .itens-tarefa{
+        width: 90%;
+        height: 8rem;
+    }
+
+    #menu-itens{
+        align-items: center;
+    }
+
+   
+    
 }
