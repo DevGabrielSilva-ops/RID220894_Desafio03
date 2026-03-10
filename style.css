@@ -1,0 +1,168 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F5F9FF;
+    font-size: 10px;
+     font-family: "Inter", sans-serif;
+}
+
+section{
+    width:90%;
+    
+}
+
+main{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#layout-tarefas{
+    width: 100%;   
+     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #FFFFFF;
+    border-radius: 1.6rem;
+    padding: 1rem;
+    border: solid 2px #EEEEEE;
+
+}
+
+h1{
+    font-size: 3rem;
+    color: #11175E;
+    
+}
+
+#cadastra-tarefa{
+    display: flex;
+    gap: 0.8rem;
+}
+
+.input-tarefa{
+    width: 17.5rem;
+    height: 2.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    
+   border: solid 1px #EEEEEE;
+}
+
+#btn-cadastrar-tarefa{
+    border: none;
+    width: 4rem;
+    height: 3.5rem;
+    border-radius: 0.5rem;
+    background-color: #2D70FD;
+    color: #FFFFFF;
+    cursor: pointer;
+    
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    padding: 0;
+    margin: 0;
+
+}
+li{
+    list-style: none;
+    font-size: 1.3rem;
+    color: #001747;
+}
+
+#informações{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#textos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5rem;
+}
+
+#textos p{
+    font-size: 0.9rem;
+    color: #B1BACB;
+}
+
+#textos span{
+    font-size: 0.7rem;
+    color: #B1BACB;
+    border: 1px solid #B1BACB;
+    border-radius: 0.9rem;
+    padding: 0.2rem;
+}
+
+
+#menu-itens{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+
+.itens-tarefa{
+    width: 100%;
+    height: 5rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    border: 1px solid #EEEEEE;
+    margin-top: 0.8rem;
+}
+
+.botao-concluir{
+    border: none;
+    width: 8rem;
+    height: 2.7rem;
+    border-radius: .5rem;
+    color: #FFFFFF;
+    background-color: #2D70FD;
+    cursor: pointer;
+}
+
+.botao-concluir:disabled{
+    background-color: rgb(0, 218, 0);
+    width: 3rem;
+    border-radius: 5rem;
+    color: white;
+    cursor: default;
+}
+
+#linha{
+    color:  #EEEEEE;
+    opacity: 0.5;
+    
+}
+
+#contador{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #B1BACB;
+    margin-top: 1rem;
+    margin-left: 18rem;
+
+}
